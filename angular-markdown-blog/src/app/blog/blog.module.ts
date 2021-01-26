@@ -4,15 +4,16 @@ import { RouterModule } from '@angular/router';
 import { MarkdownModule } from 'ngx-markdown';
 import { BlogViewComponent } from './blog-view/blog-view.component';
 import { HttpClient, HttpClientModule } from '@angular/common/http';
+import { EntryListComponent } from './entry-list/entry-list.component';
 
 @NgModule({
-  declarations: [BlogViewComponent],
+  declarations: [BlogViewComponent, EntryListComponent],
   imports: [
     CommonModule,
     RouterModule.forChild([
       {
         path: '',
-        component: BlogViewComponent,
+        component: EntryListComponent,
       },
       {
         path: 'post',

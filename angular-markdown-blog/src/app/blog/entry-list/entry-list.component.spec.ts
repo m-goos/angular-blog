@@ -1,20 +1,20 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing';
 
-import { BlogViewComponent } from './blog-view.component';
+import { EntryListComponent } from './entry-list.component';
 
-describe('BlogViewComponent', () => {
-  let component: BlogViewComponent;
-  let fixture: ComponentFixture<BlogViewComponent>;
+describe('EntryListComponent', () => {
+  let component: EntryListComponent;
+  let fixture: ComponentFixture<EntryListComponent>;
 
   beforeEach(async () => {
     await TestBed.configureTestingModule({
-      declarations: [ BlogViewComponent ]
+      declarations: [ EntryListComponent ]
     })
     .compileComponents();
   });
 
   beforeEach(() => {
-    fixture = TestBed.createComponent(BlogViewComponent);
+    fixture = TestBed.createComponent(EntryListComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();
   });

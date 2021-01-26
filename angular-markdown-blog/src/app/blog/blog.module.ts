@@ -3,19 +3,25 @@ import { CommonModule } from '@angular/common';
 import { RouterModule } from '@angular/router';
 import { MarkdownModule } from 'ngx-markdown';
 import { BlogViewComponent } from './blog-view/blog-view.component';
-
-
+import { HttpClient, HttpClientModule } from '@angular/common/http';
 
 @NgModule({
   declarations: [BlogViewComponent],
   imports: [
     CommonModule,
     RouterModule.forChild([
-      {path: '', pathMatch: 'full', loadChildren: './blog/blog-view.module#BlogViewModule'},
-      {path: 'post', loadChildren: './post/blog-post-view.module#BlogPostViewModule'},
+      {
+        path: '',
+        component: BlogViewComponent,
+      },
+      {
+        path: 'post',
+        loadChildren: './post/blog-post-view.module',
+      },
     ]),
-    MarkdownModule.forRoot()
-  ]
-  ]
+    HttpClientModule,
+    MarkdownModule.forRoot({ loader: HttpClient }),
+
+  ],
 })
-export class BlogModule { }
+export class BlogModule {}

@@ -7,7 +7,7 @@ Consider this article as a suggested roadmap for learning Angular, where the goa
 
 Let's get started, hop on the Angular train!
 
-|![Hop on](/assets/angular-first-month/images/metro.jpeg)|
+|![Hop on](assets/how-i-got-up-to-speed-in-angular/images/metro.jpeg)|
 |:--:|
 |Hop on the Angular train - _pic [@artlambi](https://unsplash.com/@artlambi) on unsplash.com_|
 
@@ -36,7 +36,7 @@ For learning Angular, it should not matter much what kind of Operating System an
 ### Side note: Angular vs React?
 Simply put, Angular takes a lot more effort to get started with, than React. A comparison of Angular and React (or Svelte/Vue/Ember/etc.) is explicitly not the goal of this blog. Earlier projects I did were based on React, and it might be good to note here that Angular is a framework, whereas React is a library (see: [framework vs library](https://www.freecodecamp.org/news/the-difference-between-a-framework-and-a-library-bd133054023f/)). It took me only a couple days to start building my confidence in React, whereas this took me a couple weeks in Angular. To me, this is part of the explanation for the popularity and industry opinion of Angular:
 
-|![Angular](images/angular-state-of-js-1.png)|
+|![Angular](assets/how-i-got-up-to-speed-in-angular/images/angular-state-of-js-1.png)|
 |:--:|
 |Chart from [State of JS](https://2019.stateofjs.com/overview/) 2019 survey|
 

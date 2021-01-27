@@ -1,2 +1,10 @@
-<p>entry-list works!</p>
-<markdown [src]="'../../assets/entry-list.md'"></markdown>
+<div class="entry-list">
+  <ol>
+    <li *ngFor="let blog of blogs">
+      <div class="title">
+        <a routerLink="/blog/{{ blog.slug }}">{{ blog.title }}</a>
+      </div>
+      <div class="published">Published on {{ blog.date | date }} by Marc</div>
+    </li>
+  </ol>
+</div>

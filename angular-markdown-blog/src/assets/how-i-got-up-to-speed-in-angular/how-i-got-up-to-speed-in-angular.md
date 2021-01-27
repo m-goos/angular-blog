@@ -7,7 +7,7 @@ Consider this article as a suggested roadmap for learning Angular, where the goa
 
 Let's get started, hop on the Angular train!
 
-|![Hop on](images/metro.jpeg)|
+|![Hop on](/assets/angular-first-month/images/metro.jpeg)|
 |:--:|
 |Hop on the Angular train - _pic [@artlambi](https://unsplash.com/@artlambi) on unsplash.com_|
 

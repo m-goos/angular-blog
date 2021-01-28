@@ -16,6 +16,7 @@ import { PostComponent } from './post/post.component';
         path: '',
         component: EntryListComponent,
       },
+      // setting up the router to use param
       { path: ':id', component: PostComponent, pathMatch: 'full'}
     ]),
     HttpClientModule,

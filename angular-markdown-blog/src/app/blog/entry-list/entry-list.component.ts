@@ -1,6 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-import { blogs, Blog } from 'config/blogs';
-
+import { entries, Post } from 'config/entries';
 
 @Component({
   selector: 'app-entry-list',
@@ -8,9 +7,7 @@ import { blogs, Blog } from 'config/blogs';
   styleUrls: ['./entry-list.component.scss'],
 })
 export class EntryListComponent implements OnInit {
-  // to do: geen ANY type
-  blogs: Blog[];
-  dash = /-/g;
+  entries: Post[];
   
   constructor() {}
 
@@ -26,13 +23,9 @@ export class EntryListComponent implements OnInit {
   }
 
   ngOnInit(): void {
-    console.log(blogs);
-
-    // HTML-logica hierheen verplaatsen
-    // replaceAll
-    this.blogs = blogs.map((blog) => ({
-      ...blog,
-      ...{ slug: this.slugify(blog.title) },
+    this.entries = entries.map((entry) => ({
+      ...entry,
+      slug: this.slugify(entry.title),
     }));
   }
 }

@@ -1,13 +1,13 @@
-export interface Blog {
+export interface Post {
   title: string;
   slug?: string;
   date: Date;
 }
 
-export const blogs: Blog[] = [
+export const entries: Post[] = [
   {
-    title: 'How I Got Up To Speed In Angular',
-    date: new Date('2020-12-23'),
+    title: 'Cloud blog: Setting up an Angular 11 blog in the AWS Cloud',
+    date: new Date('2021-01-27'),
   },
   {
     title: 'How I Got Up To Speed In Angular',

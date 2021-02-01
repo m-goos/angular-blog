@@ -17,7 +17,7 @@ import { PostComponent } from './post/post.component';
         component: EntryListComponent,
       },
       // setting up the router to use param
-      { path: ':id', component: PostComponent, pathMatch: 'full'}
+      { path: ':id', component: PostComponent, pathMatch: 'full' },
     ]),
     HttpClientModule,
     MarkdownModule.forRoot({ loader: HttpClient }),

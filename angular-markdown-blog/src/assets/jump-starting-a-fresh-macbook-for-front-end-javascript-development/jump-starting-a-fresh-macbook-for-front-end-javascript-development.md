@@ -10,11 +10,8 @@
 [vscode-settings]: assets/jump-starting-a-fresh-macbook-for-front-end-javascript-development/images/vscode-settings.png "Accessing VS Code settings through command palette"
 [zsh]:  assets/jump-starting-a-fresh-macbook-for-front-end-javascript-development/images/zsh.png "Z Shell after changing the configuration"
 
-Jump-starting a fresh MacBook for Front End JavaScript development
+Jump-starting a MacBook for Front End development
 ==================================================================
-_By Marc Goossens_ |
-view the draft on medium: [view](https://medium.com/@gooss/jump-starting-a-fresh-macbook-for-front-end-javascript-development-b1d10e5d8c7d) or [edit (logged in)](https://medium.com/p/b1d10e5d8c7d/edit).
-
 In the past months, I set up a MacBook for full stack JavaScript development five times — technical difficulties, 🍾 a new job at [Techspire](https://medium.com/techspiration) (hiring!), a new computer at a client, you name it. If, like me, you have hobbies, this is not the thing you want to be spending your time on. So the next time I am setting up a machine, I will be copy-pasting from this article. Or, even better, automating the setup. I hope this saves you some time too, and that you pick up a trick or two. This article discusses:
 
 1.  **Homebrew** package manager to quickly install what we need

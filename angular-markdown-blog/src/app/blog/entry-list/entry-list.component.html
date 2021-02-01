@@ -1,10 +1,12 @@
-<div class="entry-list">
-  <ol>
-    <li *ngFor="let entry of entries">
-      <div class="title">
+<div class="container">
+
+  
+  <div class="entry-list">
+    <ul>
+      <li *ngFor="let entry of entries">
+        {{ entry.date | date: 'YYYY LLL MM' }}:
         <a routerLink="/blog/{{ entry.slug }}">{{ entry.title }}</a>
-      </div>
-      <div class="published">Published on {{ entry.date | date }} by Marc</div>
-    </li>
-  </ol>
+      </li>
+    </ul>
+  </div>
 </div>

@@ -1,6 +1,6 @@
-// :host ::ng-deep {
-#markdown-post {
-@media print {
+:host ::ng-deep {
+  
+  @media print {
   *,
   *:before,
   *:after {
@@ -102,17 +102,17 @@ h4,
 h1,
 .splendor-h1 {
   margin-top: 0;
-  font-size: 3.5rem;
+  font-size: 3.998rem;
 }
 
 h2,
 .splendor-h2 {
-  font-size: 2rem;
+  font-size: 2.827rem;
 }
 
 h3,
 .splendor-h3 {
-  font-size: 1.5rem;
+  font-size: 1.999rem;
 }
 
 h4,
@@ -166,7 +166,7 @@ body {
 p,
 *:not(div):not(img):not(body):not(html):not(li):not(blockquote):not(p) {
   margin: 1rem auto 1rem;
-  max-width: 46rem;
+  max-width: 50rem;
   padding: .25rem;
 }
 
@@ -182,7 +182,7 @@ blockquote p {
   font-size: 1.5rem;
   font-style: italic;
   margin: 1rem auto 1rem;
-  max-width: 54rem;
+  max-width: 48rem;
 }
 
 li {
@@ -192,7 +192,7 @@ li {
 /* Counteract the specificity of the gross *:not() chain. */
 
 h1 {
-  padding: 1rem 0 !important;
+  padding: 4rem 0 !important;
 }
 
 /*  === End gross hack */
@@ -213,7 +213,6 @@ pre {
   font-size: .8rem;
   overflow-x: scroll;
   padding: 1.125em;
-
 }
 
 a,
@@ -226,4 +225,5 @@ a:focus,
 a:active {
   color: #2980b9;
 }
+
 }

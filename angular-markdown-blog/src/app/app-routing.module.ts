@@ -12,7 +12,7 @@ const routes: Routes = [
     loadChildren: () =>
       import('./blog/blog.module').then((m) => m.BlogModule),
   },
-  { path: 'images/:id', redirectTo: 'assets/Jump-starting-a-fresh-MacBook-for-Front-End-JavaScript-development/images/:id'}
+  // { path: 'images/:id', redirectTo: 'assets/Jump-starting-a-fresh-MacBook-for-Front-End-JavaScript-development/images/:id'}
 ];
 
 @NgModule({
